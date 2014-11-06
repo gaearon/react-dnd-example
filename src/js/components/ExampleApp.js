@@ -1,7 +1,5 @@
-/** @jsx React.DOM */
-
 var React = require('react/addons');
-var DragDropMixin = require('react-dnd');
+var { DragDropMixin } = require('react-dnd');
 
 
 var List = React.createClass({

@@ -17,9 +17,8 @@
     "jsdom": "*",
     "react": "^0.12",
     "react-dnd": "^0.4.2",
-    "reactify": "^0.13.1",
+    "reactify": "^0.15.2",
     "object-assign": "~1.0.0",
-    "es6ify": "~1.5.1",
     "harmony-reflect": "~1.1.0"
   },
   "dependencies": {}

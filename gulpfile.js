@@ -6,10 +6,10 @@ var $ = require('gulp-load-plugins')();
 var DEST = './dist';                         // The build output folder
 var compass = require('gulp-compass');
 
-var browserify = require('gulp-browserify'), browserifyTransform = [
-    'reactify',
-    'es6ify'
-];
+var browserify = require('gulp-browserify'), browserifyTransform = [[
+    { 'es6': true, global: true },
+    'reactify'
+]];
 
 
 gulp.task('browserify', function () {
